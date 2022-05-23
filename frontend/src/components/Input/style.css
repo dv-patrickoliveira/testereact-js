@@ -1,0 +1,20 @@
+.input-div {
+  margin: 5px 10px 5px 12px;    
+}
+
+.input-white {
+  border: none; outline: none;
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 147, 209);
+}
+
+.input-white:focus {
+  border: none; outline: none;
+}
+
+.input-white::placeholder {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}

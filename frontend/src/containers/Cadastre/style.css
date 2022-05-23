@@ -1,0 +1,127 @@
+#cadastre-wrapper-app {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  
+  height: 100%;
+  width: 100%;
+}
+
+#cadastre-wrapper-login {
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+}
+
+#cadastre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  border-radius: 9px;
+  background-color: rgb(102, 102, 102);
+
+  width: 350px;
+  height: 400px;
+}
+
+
+#cadastre-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+#cadastre-titulo-cadastro {  
+  margin-top: 6px;
+  margin-right: 3px;
+  color: rgb(255, 255, 255);
+
+  font-size: 15px;
+  font-weight: 300;  
+}
+.login-form-title {
+  display: block;
+  font-size: 40px;
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+#cadastre-titulo-usuario {  
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#cadastre-traco {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+#cadastre-traco-conteudo {
+  width: 1000px;
+
+  border: rgb(255, 255, 255);
+  height: 3px;
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
+  background: linear-gradient(to left, #21d4fd, #b721ff);
+  color: rgb(255, 255, 255);
+}
+
+.cadastre-input {
+  border: 3px solid white;
+  border-radius: 50px;
+  width: 250px;
+
+  background-color: white;
+}
+
+.cadastre-margin-top-10 {
+  margin-top: 30px;
+}
+
+.cadastre-mensagem {
+  margin: 0 30px 0 30px;
+}
+
+#cadastre-btn {
+  display: flex;
+  flex-direction: row;  
+}
+
+.cadastre-botao{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+
+  width: 160px;
+  height: 35px;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
+  background: linear-gradient(to left, #21d4fd, #b721ff);
+  color: rgb(255, 255, 255);
+}
+
+.cadastre-botao div{
+  margin-top: 10px;
+  text-align: center;  
+}
+
+.cadastre-mensagem {
+  margin: 0 30px 0 30px;
+  
+}
+
+
